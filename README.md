@@ -11,7 +11,7 @@ Simple Day planner during office hour can help employee with a busy schedule. So
 ## Live Link
 https://b-smd.github.io/Day-Planner/
 
-https://github.com/B-smd/portfolio.git
+https://github.com/B-smd/Day-Planner.git
 
 ## Technologies Used
 - HTML
