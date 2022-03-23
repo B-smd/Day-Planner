@@ -16,7 +16,7 @@ function init() {
     });
 
     // attach our handler for the save buttons
-    $(".saveBtn").on("click, handleSave");
+    $(".saveBtn").on("click", handleSave);
 }
 
 function colorTimeBlocks() {
