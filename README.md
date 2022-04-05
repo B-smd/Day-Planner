@@ -6,6 +6,7 @@ Simple Day planner during office hour can help employee with a busy schedule. So
 ## Demo
 ![Day-Planner](./Assets/ScreenShot1.png)
 ![Day-Planner](./Assets/ScreenShot2.png)
+![Day-Planner](./Assets/ScreenShot3.png)
 
 
 ## Live Link
