@@ -10,7 +10,7 @@ function init() {
 
     // update time blocks with data in local storage
     $(".time-block").each(function() {
-    var blockId = $(this).attr("id");
+    const blockId = $(this).attr("id");
     // load saved data from local storage
     $("#" + blockId + " textarea").text(localStorage.getItem(moment().format("DDDYYYY") + blockId));
     });
@@ -22,8 +22,8 @@ function init() {
 function colorTimeBlocks() {
     // for each time block
     $(".time-block").each(function() {
-        var blockHour = parseInt($(this).attr("id").replace("hour-", ""));
-        var currentHour = parseInt(moment().format("H"));
+        const blockHour = parseInt($(this).attr("id").replace("hour-", ""));
+        const currentHour = parseInt(moment().format("H"));
         // remove any class we have added before
         $(this).removeClass("past present future");
         // color block based on past, present, future class
@@ -39,7 +39,7 @@ function colorTimeBlocks() {
 
 function handleSave(event) {
     // get the id of our parent
-    var hourId = $(this).parent().attr("id");
+    const hourId = $(this).parent().attr("id");
     // save data in textarea in local storage
     localStorage.setItem(moment().format("DDDYYYY") + hourId, $("#" + hourId + " textarea").val());
 }
